@@ -16,6 +16,7 @@
     display: flex;
     background: whitesmoke;
     border-radius: 20px;
+    width: 700px;
 }
 .result{
     border-radius: 25px;
@@ -94,8 +95,16 @@
     margin-top: 10px;
 }
 .head1{
-    padding-left: 23%;
-    font-size: x-large;
+    padding-left: 15%;
+    font-size: larger;
     color: rgb(137, 154, 169);
     
+}
+.circle{
+    background-image: linear-gradient(rgb(25, 40, 125), rgb(50, 6, 183));
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 75px;
+    margin-top: 20px;
 }
