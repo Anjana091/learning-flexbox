@@ -1,0 +1,101 @@
+.container{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content:center;
+   padding-top: 20px; 
+   font-family: Trebuchet MS ;
+  
+}
+.result{
+    color: white;
+    background-image: linear-gradient(rgb(58, 80, 208), rgb(41, 4, 151));
+
+}
+.cont{
+    display: flex;
+    background: whitesmoke;
+    border-radius: 20px;
+}
+.result{
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.box{
+    padding: 15px;
+    margin:10px 0px 10px 40px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  
+}
+.box0{
+    padding: 15px;
+    margin:10px 0px 10px 40px;
+}
+.box1{
+    background: rgb(252, 219, 198);
+}
+.box2{
+    background: rgb(242, 246, 219);
+}
+.box3{
+    background: rgb(228, 249, 214);
+}
+.box4{
+    background: rgb(216, 208, 232);
+}
+.mark1{
+    padding-left: 140px;
+}
+.mark2{
+    padding-left: 150px;
+}
+.mark3{
+    padding-left: 160px;
+}
+.mark4{
+    padding-left: 165px;
+}
+.text
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+.text1{
+    color: red;
+}
+.text2{
+    color: rgb(227, 172, 46);
+}
+.text3{
+    color: green;
+}
+.text4{
+    color: blue;
+}
+.button{
+    background-color: #0a054e; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 300px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.head1{
+    padding-left: 23%;
+    font-size: x-large;
+    color: rgb(137, 154, 169);
+    
+}
