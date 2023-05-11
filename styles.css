@@ -107,4 +107,23 @@
     height: 100px;
     margin-left: 75px;
     margin-top: 20px;
+    margin-bottom: 0px;
+}
+.num1{
+    font-size: 6ch;
+    padding-left: 23px;
+    padding-top: 5px;
+}
+.num2{
+    color: rgb(153, 161, 161);
+    padding-left: 25px;
+}
+.text5{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.text6{
+    text-align: center;
+    margin-right: 15px;
+    color:rgb(153, 161, 161) ;
 }
