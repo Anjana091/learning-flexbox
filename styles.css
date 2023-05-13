@@ -1,129 +1,126 @@
-.container{
+body {
     display: flex;
-    flex: 1;
+    justify-content: center;
     align-items: center;
-    justify-content:center;
-   padding-top: 20px; 
-   font-family: Trebuchet MS ;
-  
-}
-.result{
-    color: white;
-    background-image: linear-gradient(rgb(58, 80, 208), rgb(41, 4, 151));
-
-}
-.cont{
+    min-height: 100vh;
+    font-family: sans-serif;
+  }
+  .container {
     display: flex;
-    background: whitesmoke;
+    width: 600px;
+    justify-content: center;
     border-radius: 20px;
-    width: 700px;
-}
-.result{
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
+    box-shadow: 1px 0px 20px 2px rgb(0, 0, 0, 0.4);
+  }
+  
+  .result {
+    color: #fff;
+    padding: 20px;
     width: 40%;
-    justify-content: space-around;
-}
-
-.box{
-    padding: 15px;
-    margin:10px 0px 10px 40px;
-    width: 300px;
-    border-radius: 10px;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  }
+  .summery {
+    width: 50%;
+    padding: 20px;
+  }
+  .result h4 {
+    text-align: center;
+    font-size: larger;
+    color: rgb(191, 190, 190);
+  }
+  .score-result {
+    padding: 50px;
+    width: 74px;
+    height: 74px;
+    border-radius: 100%;
+    box-shadow: inset 1px 1px 12px 0px rgb(101, 72, 179);
     display: flex;
     align-items: center;
-  
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .big-score {
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
+  }
+.small-score{
+    color: rgb(191, 195, 199);
 }
-.box0{
+  .score-con {
+    display: flex;
+
+  }
+  p{
+    color: rgb(164, 163, 163);
+  }
+  .score {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(0, 100%, 67%, 0.1);
+    color: hsl(0, 100%, 67%);
+    margin-bottom: 15px;
     padding: 15px;
-    margin:10px 0px 10px 40px;
-}
-.box1{
-    background: rgb(252, 219, 198);
-}
-.box2{
-    background: rgb(242, 246, 219);
-}
-.box3{
-    background: rgb(228, 249, 214);
-}
-.box4{
-    background: rgb(216, 208, 232);
-}
-.mark1{
-    padding-left: 140px;
-}
-.mark2{
-    padding-left: 150px;
-}
-.mark3{
-    padding-left: 160px;
-}
-.mark4{
-    padding-left: 165px;
-}
-.text
-{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 10px;
-}
-.text1{
-    color: red;
-}
-.text2{
-    color: rgb(227, 172, 46);
-}
-.text3{
-    color: green;
-}
-.text4{
-    color: blue;
-}
-.button{
-    background-color: #0a054e; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  width: 300px;
-    border-radius: 30px;
-    margin-top: 10px;
-}
-.head1{
-    padding-left: 15%;
-    font-size: larger;
-    color: rgb(137, 154, 169);
-    
-}
-.circle{
-    background-image: linear-gradient(rgb(25, 40, 125), rgb(50, 6, 183));
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: 75px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-}
-.num1{
-    font-size: 6ch;
-    padding-left: 23px;
-    padding-top: 5px;
-}
-.num2{
-    color: rgb(153, 161, 161);
-    padding-left: 25px;
-}
-.text5{
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-.text6{
-    text-align: center;
-    margin-right: 15px;
-    color:rgb(153, 161, 161) ;
-}
+    border-radius: 10px;
+  }
+  .grey {
+    color: rgba(87, 87, 87, 0.992);
+  }
+  .score-con img {
+    margin-right: 5px;
+  }
+  .black-text {
+    color: #222;
+    font-weight: bold;
+  }
+  .score-memory {
+    color: hsl(39, 100%, 56%);
+    background: hsla(39, 100%, 56%, 0.1);
+  }
+  .score-verbal {
+    color: hsl(166, 100%, 37%);
+    background: hsl(166, 100%, 37%, 0.1);
+  }
+  .score-visual {
+    color: hsl(234, 85%, 45%);
+    background: hsl(234, 85%, 45%, 0.1);
+  }
+  
+  button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    outline: none;
+    background-color: hsl(224, 30%, 27%);
+    width: 100%;
+    border-radius: 20px;
+  }
+  @media (max-width: 760px) {
+    .result {
+      width: 100%;
+      padding: 0px;
+      border-radius: 0px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+    .summery {
+      padding: 0;
+      width: 80%;
+      margin: 0 auto;
+    }
+    .result-text {
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      width: 100%;
+      flex-direction: column;
+      border-radius: 0px;
+      overflow: hidden;
+      padding: 0;
+    }
+  }
